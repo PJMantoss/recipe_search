@@ -15,6 +15,7 @@ function App() {
     (async () => {
       const query = encodeURIComponent(recipeSearch);
       const response = await searchForRecipes(query);
+      setRecipeFound(response);
     })
   },[])
 
