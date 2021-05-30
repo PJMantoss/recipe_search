@@ -30,7 +30,7 @@ function App() {
   return (
     <div className="App">
       <h1>Recipe Search App</h1>
-      <form className="searchForm"> onSubmit={}
+      <form className="searchForm" onSubmit={e => search(e)} >
         <input type="text" name="search" id="searchText" />
         <input type="submit" value="Search" />
       </form>
