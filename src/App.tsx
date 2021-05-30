@@ -16,8 +16,8 @@ function App() {
       const query = encodeURIComponent(recipeSearch);
       const response = await searchForRecipes(query);
       setRecipeFound(response);
-    })
-  },[])
+    })();
+  });
 
   return (
     <div>
