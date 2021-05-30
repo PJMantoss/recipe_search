@@ -34,6 +34,9 @@ function App() {
         <input type="text" name="search" id="searchText" />
         <input type="submit" value="Search" />
       </form>
+      {recipeSearch && <p>results for { recipeSearch }...</p>}
+
+      <div className="recipeContainer"></div>
     </div>
   );
 }
