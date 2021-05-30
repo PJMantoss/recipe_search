@@ -7,7 +7,7 @@ function App() {
   const [recipesFound, setRecipesFound] = useState<IRecipe[]>([]);
   const [recipeSearch, setRecipeSearch] = useState("");
 
-  const searchForRecipes = async (query: string): Promise<IRecipe[]>  => {
+  const searchForRecipes = async (query: string): Promise<IRecipe[]> => {
     const result = await fetch(`http://localhost:3000/?search=${query}`);
     return (await result.json()).results;
   }
