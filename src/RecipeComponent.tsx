@@ -3,13 +3,13 @@ import { IRecipe } from './IRecipe';
 const RecipeComponent = (props: {recipe: IRecipe}) => {
     const {recipe } = props;
 
-    return(
+    return (
         <div className="recipe">
             <div className="title">
-                <img src="" alt="" srcset="" />
+                <img src={recipe.thumbnail || 'http://localhost:3000/placeholder.jpg'} alt=""/>
             </div>
         </div>
-    )
+    );
 }
 
 export default RecipeComponent;
