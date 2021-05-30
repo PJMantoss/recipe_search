@@ -13,6 +13,8 @@ function App() {
 
   const search = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
+    const form = e.target;
   }
 
   useEffect(() => {
