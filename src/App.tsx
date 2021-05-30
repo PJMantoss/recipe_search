@@ -3,7 +3,7 @@ import { IRecipe } from './IRecipe';
 import './App.css';
 
 function App() {
-  const [recipeFound, setRecipeFound] = useState<IRecipe[]>([]);
+  const [recipesFound, setRecipesFound] = useState<IRecipe[]>([]);
   const [recipeSearch, setRecipeSearch] = useState("");
 
   const searchForRecipes = async (query: string): Promise<IRecipe[]>  => {
@@ -23,7 +23,7 @@ function App() {
     (async () => {
       const query = encodeURIComponent(recipeSearch);
       const response = await searchForRecipes(query);
-      setRecipeFound(response);
+      setRecipesFound(response);
     })();
   }, [recipeSearch]);
 
@@ -36,7 +36,11 @@ function App() {
       </form>
       {recipeSearch && <p>results for { recipeSearch }...</p>}
 
-      <div className="recipeContainer"></div>
+      <div className="recipeContainer">
+        {recipesFound && recipesFound.map(recipe => (
+          <RecipeComponent key={}></RecipeComponent>
+        ))}
+      </div>
     </div>
   );
 }
