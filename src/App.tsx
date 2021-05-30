@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { FormEvent, useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -9,6 +9,10 @@ function App() {
   const searchForRecipes = async (query: string): Promise<any>  => {
     const result = await fetch(`http://localhost:3000/?search=${query}`);
     return (await result.json()).results;
+  }
+
+  const search = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
   }
 
   useEffect(() => {
