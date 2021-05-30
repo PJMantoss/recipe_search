@@ -14,7 +14,9 @@ function App() {
   const search = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    const form = e.target;
+    const form = e.target as HTMLFormElement;
+    const input = form.querySelector('#searchText') as HTMLInputElement;
+    setRecipeSearch(input.value);
   }
 
   useEffect(() => {
