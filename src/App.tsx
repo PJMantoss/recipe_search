@@ -1,5 +1,6 @@
 import React, { FormEvent, useEffect, useState } from 'react';
 import { IRecipe } from './IRecipe';
+import RecipeComponent from './RecipeComponent';
 import './App.css';
 
 function App() {
@@ -38,7 +39,7 @@ function App() {
 
       <div className="recipeContainer">
         {recipesFound && recipesFound.map(recipe => (
-          <RecipeComponent key={}></RecipeComponent>
+          <RecipeComponent key={recipe.href} recipe={recipe}></RecipeComponent>
         ))}
       </div>
     </div>
