@@ -23,15 +23,23 @@
   width: 80%;
   height: 35px;
   margin-bottom: 10px;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  padding: 0 5px;
 }
 
 #searchText {
   border: solid 1px gray;
-  border-radius: 4px;
   background: rgb(235, 235, 169);
 }
 
 #searchText:focus {
   background: white;
   outline: none;
+}
+
+#searchBtn {
+  background: black;
+  color: white;
+  border: 0;
 }
