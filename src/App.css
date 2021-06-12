@@ -4,5 +4,16 @@
 }
 
 .App {
-  padding: 10px 20px;
+  padding: 20px;
+}
+
+.App h1 {
+  text-align: center;
+}
+
+.App .searchForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 15px auto;
 }
