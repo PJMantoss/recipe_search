@@ -33,7 +33,7 @@ function App() {
       <h1>Recipe Search App</h1>
       <form className="searchForm" onSubmit={e => search(e)} >
         <input type="text" name="search" id="searchText" />
-        <input type="submit" value="Search" />
+        <input type="submit" value="Search" id="searchBtn" />
       </form>
       {recipeSearch && <p>results for { recipeSearch }...</p>}
 

@@ -24,3 +24,14 @@
   height: 35px;
   margin-bottom: 10px;
 }
+
+#searchText {
+  border: solid 1px gray;
+  border-radius: 4px;
+  background: rgb(235, 235, 169);
+}
+
+#searchText:focus {
+  background: white;
+  outline: none;
+}
