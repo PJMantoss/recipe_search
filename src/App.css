@@ -95,3 +95,17 @@ ul > li:hover {
   background: black;
   color: white;
 }
+
+.recipe a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.recipe a:hover{
+  color: red;
+}
+
+.recipe a:visited{
+  color: rgb(250, 77, 106);
+}
