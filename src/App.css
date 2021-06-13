@@ -143,4 +143,11 @@ ul > li:hover {
     width: 20%;
     border-radius: 0 6px 6px 0;
   }
+
+  .App .recipeContainer {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }
