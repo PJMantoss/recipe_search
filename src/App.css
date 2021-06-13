@@ -62,4 +62,5 @@
   display: block;
   max-width: 100%;
   height: auto;
+  border: solid 5px rgb(206, 202, 202);
 }
