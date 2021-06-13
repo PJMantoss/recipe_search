@@ -50,3 +50,10 @@
   justify-content: center;
   align-items: center;
 }
+
+.recipe .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
