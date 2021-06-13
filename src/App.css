@@ -50,36 +50,6 @@
   border: solid 1px gray;
 }
 
-@media only screen and (min-width: 600px) and (max-width: 1024px){
-  .App .searchForm{
-    width: 70%;
-  }
-}
-
-@media only screen and (min-width: 1025px){
-  .App .searchForm{
-    width: 50%;
-  }
-}
-
-@media only screen and (min-width: 600px){
-  .App .searchForm {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  #searchText{
-    width: 60%;
-    border-radius: 6px 0 0 6px;
-  }
-
-  #searchBtn{
-    width: 20%;
-    border-radius: 0 6px 6px 0;
-  }
-}
-
 .recipe {
   display: flex;
   flex-direction: column;
@@ -140,4 +110,36 @@ ul > li:hover {
 
 .recipe a:visited{
   color: rgb(250, 77, 106);
+}
+
+/* Responsiveness - Desktop */
+
+@media only screen and (min-width: 600px) and (max-width: 1024px){
+  .App .searchForm{
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1025px){
+  .App .searchForm{
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 600px){
+  .App .searchForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #searchText{
+    width: 60%;
+    border-radius: 6px 0 0 6px;
+  }
+
+  #searchBtn{
+    width: 20%;
+    border-radius: 0 6px 6px 0;
+  }
 }
