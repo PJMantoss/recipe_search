@@ -50,9 +50,20 @@
   border: solid 1px gray;
 }
 
-@media only screen and (min-width: 800px){
-  .App .searchForm {
+@media only screen and (min-width: 600px) and (max-width: 999px){
+  .App .searchForm{
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1000px){
+  .App .searchForm{
     width: 50%;
+  }
+}
+
+@media only screen and (min-width: 600px){
+  .App .searchForm {
     display: flex;
     flex-direction: row;
     justify-content: center;
