@@ -65,16 +65,16 @@
   margin: 10px 0;
 }
 
+.title:hover{
+  transform: scale(1.1);
+}
+
 .title img {
   display: block;
   max-width: 100%;
   height: auto;
   border: solid 5px rgb(233, 231, 231);
   border-radius: 3px;
-}
-
-.title img:hover{
-  transform: scale(1.1);
 }
 
 .title p {
