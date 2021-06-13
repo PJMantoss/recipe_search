@@ -47,6 +47,7 @@
 #searchBtn:hover{
   background: whitesmoke;
   color: black;
+  border: solid 1px gray;
 }
 
 @media only screen and (min-width: 800px){
