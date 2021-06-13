@@ -49,7 +49,7 @@
   color: black;
 }
 
-@media only screen and (min-width: 601px){
+@media only screen and (min-width: 800px){
   .App .searchForm {
     width: 50%;
     display: flex;
@@ -59,11 +59,12 @@
 
   #searchText{
     width: 60%;
-    margin-right: 10px;
+    border-radius: 6px 0 0 6px;
   }
 
   #searchBtn{
     width: 20%;
+    border-radius: 0 6px 6px 0;
   }
 }
 
