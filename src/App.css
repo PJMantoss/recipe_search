@@ -150,6 +150,11 @@ ul > li:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    position: top;
+  }
+
+  .recipe {
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 45%;
   }
 }
