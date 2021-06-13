@@ -1,4 +1,5 @@
 import { IRecipe } from './IRecipe';
+import './App.css';
 
 const RecipeComponent = (props: {recipe: IRecipe}) => {
     const {recipe } = props;

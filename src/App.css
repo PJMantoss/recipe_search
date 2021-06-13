@@ -43,3 +43,11 @@
   color: white;
   border: 0;
 }
+
+.recipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
