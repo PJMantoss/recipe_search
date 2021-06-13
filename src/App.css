@@ -57,3 +57,9 @@
   justify-content: center;
   align-items: center;
 }
+
+.title img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
