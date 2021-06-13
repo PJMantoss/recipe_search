@@ -61,7 +61,7 @@
   justify-content: center;
   align-items: center;
   background: rgb(185, 205, 243);
-  padding-top: 10px;
+  padding: 10px;
   margin: 10px 0;
 }
 
@@ -79,8 +79,6 @@
 
 .title p {
   font-size: 1.1rem;
-  padding: 4px;
-  margin: 1em 0;
 }
 
 .title p:hover{
@@ -93,4 +91,6 @@
   list-style: none;
   background: rgb(84, 138, 236);
   color: white;
+  margin: 1em 0;
+  padding: 4px;
 }
