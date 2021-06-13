@@ -62,5 +62,15 @@
   display: block;
   max-width: 100%;
   height: auto;
-  border: solid 5px rgb(206, 202, 202);
+  border: solid 5px rgb(233, 231, 231);
+  border-radius: 3px;
+}
+
+.title p {
+  font-size: 1.1rem;
+  background: rgb(84, 138, 236);
+  color: white;
+  padding: 4px;
+  margin: 1em 0;
+  border-radius: 3px;
 }
