@@ -44,6 +44,10 @@
   border: 0;
 }
 
+#searchBtn:hover{
+  transform: scale(1.2);
+}
+
 .recipe {
   display: flex;
   flex-direction: column;
