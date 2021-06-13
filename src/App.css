@@ -56,13 +56,11 @@
 }
 
 .recipe .title {
-  background: rgb(84, 138, 236);
-  color: whitesmoke;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: gray;
+  background: rgb(185, 205, 243);
   padding-top: 10px;
   margin: 10px 0;
 }
