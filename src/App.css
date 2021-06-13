@@ -153,8 +153,18 @@ ul > li:hover {
   }
 
   .recipe {
-    flex-direction: row;
     justify-content: flex-start;
-    width: 45%;
+    width: 30%;
+  }
+
+  .recipe > ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .recipe > ul > li {
+    margin-right: 10px;
   }
 }
